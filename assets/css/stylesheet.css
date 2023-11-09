@@ -1,0 +1,37 @@
+* {
+    font-family: blippo, fantasy;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: cornflowerblue;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    visibility: hidden;
+
+}
+
+#question {
+    display: flex;
+    justify-content: center;
+}
+
+
+#info {
+    display: flex;
+    justify-content: center;
+    visibility: hidden;
+
+}
+
+#start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
