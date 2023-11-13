@@ -2,10 +2,16 @@
     font-family: blippo, fantasy;
 }
 
+main {
+    width: 80%;
+    float: right;
+
+}
+
 header {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-end;
     background-color: cornflowerblue;
 }
 
@@ -15,6 +21,36 @@ div {
     flex-direction: column;
     visibility: hidden;
 
+}
+
+aside {
+    font-size: x-large;
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+    height: 1080px;
+    background-color: cornflowerblue;
+}
+
+table {
+    width: 378px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+thead {
+    width: 377px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right {
+    background-color: green;
+}
+
+.wrong {
+    background-color: red;
 }
 
 #question {
@@ -31,7 +67,20 @@ div {
 }
 
 #start {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-left: 48%;
 }
+   
+
+#container {
+    height: 1080px;
+    background-color: aquamarine;
+}
+
+#next {
+    visibility: hidden;
+}
+
+#timer {
+    margin-right: 100px;
+}
+
