@@ -23,35 +23,20 @@ div {
 
 }
 
+p {
+    display: flex;
+    justify-content: center;
+}
+
 aside {
     font-size: x-large;
     display: flex;
-    justify-content: space-between;
-    font-style: italic;
+    flex-direction: column;
+    text-align: center;
     height: 1080px;
     background-color: cornflowerblue;
 }
 
-table {
-    width: 378px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-}
-
-thead {
-    width: 377px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.right {
-    background-color: green;
-}
-
-.wrong {
-    background-color: red;
-}
 
 #question {
     display: flex;
